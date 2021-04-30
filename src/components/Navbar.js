@@ -46,7 +46,7 @@ export default function Navbar() {
       <Spacer></Spacer>
       <Logo src="/logo.png" />
       <Link to="/" style={{ textDecoration: "none", color: "black" }}>
-        <NavName>MarketFlash</NavName>
+        <NavName>Filavar</NavName>
       </Link>
     </Bar>
   );

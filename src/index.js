@@ -10,17 +10,19 @@ import Mailchimp from './pages/Mailchimp'
 import Email from './pages/Email'
 import People from './pages/People'
 import Sent from './pages/Sent'
+import Pricing from './pages/Pricing'
 
 const routing = (
   <Router>
     <Switch>
       <Route exact path="/" component={App} />
       <Route path="/home" component={Home} />
-      <Route path="/salesforce" component={Salesforce} />
+      {/* <Route path="/salesforce" component={Salesforce} />
       <Route path="/mailchimp" component={Mailchimp} />
       <Route path="/email" component={Email} />
       <Route path="/people" component={People} />
-      <Route path="/sent" component={Sent} />
+      <Route path="/sent" component={Sent} /> */}
+      <Route path="/pricing/:name" component={Pricing} />
     </Switch>
   </Router>
 )

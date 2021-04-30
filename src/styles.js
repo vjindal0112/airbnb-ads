@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { Power } from "./constants";
+import { Power, PowerHover } from "./constants";
 
 export const Logo = styled.img`
   max-height: 30vh;
@@ -32,7 +32,7 @@ export const Button = styled(Link)`
   display: block;
   transition: all 0.5s;
   &:hover {
-    background: #6f1fcb;
+    background: ${PowerHover};
   }
   @media (max-width: 768px) {
     margin-top: 5%;
@@ -59,14 +59,13 @@ export const Tagline = styled.h1`
     width: 90%;
   }
   width: 60%;
-  margin-top: 100px;
+  margin-top: 36px;
   margin-left: auto;
   margin-right: auto;
   font-family: Manrope, "sans-serif";
   font-weight: 800;
   font-size: 60px;
   text-align: center;
-  line-height: 80px;
   color: #18191f;
   display: block;
 `;

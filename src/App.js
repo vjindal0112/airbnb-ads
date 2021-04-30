@@ -1,12 +1,17 @@
-import './App.css';
-import Home from "./pages/Home"
+import "./App.css";
+import Home from "./pages/Home";
+import styled from "styled-components";
+
+const GradientWrapper = styled.div`
+  background-image: linear-gradient(#f6cdc0, #ee9c82);
+  min-height: 100vh;
+`;
 
 function App() {
   return (
-    <div>
+    <GradientWrapper>
       <Home />
-    </div>
-  )
+    </GradientWrapper>
+  );
 }
-export default App
-
+export default App;

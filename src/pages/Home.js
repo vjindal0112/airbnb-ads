@@ -12,10 +12,12 @@ export default function Home() {
   return (
     <div style={{ textAlign: "center" }}>
       <Navbar />
-      <Tagline>Find the perfect email targets</Tagline>
-      <Subtitle>Hit your mark, increase conversions</Subtitle>
-      <Button to="/salesforce">Let's get started</Button>
-      <HomeImg src="/undraw_emails.svg"></HomeImg>
+      <Tagline>Connecting Airbnb hosts to experiences</Tagline>
+      <Subtitle>Increase your experience conversions</Subtitle>
+      <a style={{ textDecoration: "none" }} href="mailto:formans@umich.edu">
+        <Button>Contact</Button>
+      </a>
+      <HomeImg src="/undraw_connection.svg"></HomeImg>
     </div>
   );
 }
