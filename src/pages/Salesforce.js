@@ -1,4 +1,3 @@
-import styled from "styled-components";
 import { OnboardingTagline, Subtitle, Button } from "../styles";
 import Navbar from "../components/Navbar";
 

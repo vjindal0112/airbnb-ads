@@ -5,30 +5,60 @@ const Block = styled.div`
   border-radius: 8px;
   background-color: #fff;
   height: 400px;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
-  width: 500px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  margin: 12px;
+  text-align: center;
+  min-width: 360px;
   display: flex;
   flex-direction: column;
   border: 1px solid black;
+  @media (max-width: 768px) {
+    min-width: 300px;
+    max-width: 301px;
+  }
+  @media (max-width: 280px) {
+    min-width: 260px;
+    max-width: 261px;
+  }
 `;
 
 const TextWrapper = styled.div`
   text-align: left;
-  max-width: 60%;
+  width: 60%;
   margin: 0 auto;
+  @media (max-width: 768px) {
+    width: 80%;
+  }
 `;
 
-export default function HomePricingBlock({ basePrice, percent, subText }) {
+export default function HomePricingBlock({
+  basePrice,
+  percent,
+  subText,
+  boxShadowSize,
+}) {
   return (
-    <Block>
-      <h1>${basePrice} + {percent}%</h1>
+    <Block
+      style={
+        boxShadowSize
+          ? {
+              boxShadow: `${boxShadowSize}px ${boxShadowSize}px ${boxShadowSize}px rgba(0,0,0,0.2)`,
+            }
+          : null
+      }
+    >
+      <h1>
+        ${basePrice} + {percent}%
+      </h1>
       <Subtitle>{subText}</Subtitle>
       <TextWrapper>
-        <p>Step 1: Match with Airbnb Hosts</p>
-        <p>Step 2: Hosts tell interested guests</p>
-        <p>Step 3: Get new clients</p>
+        <p>Step 1: Send us an email</p>
+        <p>Step 2: We find you a host</p>
+        <p>Step 3: The host sends guests your way</p>
       </TextWrapper>
-      <Button style={{"marginTop": "auto", "marginBottom": "24px"}}>Match now</Button>
+      <Button href="mailto:formans@umich.edu" style={{ marginTop: "auto", marginBottom: "24px" }}>
+        Match now
+      </Button>
     </Block>
   );
 }

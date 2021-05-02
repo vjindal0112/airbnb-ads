@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Subtitle, Button } from "../styles";
+import { Subtitle, ButtonA } from "../styles";
 
 const Block = styled.div`
   border-radius: 8px;
@@ -28,7 +28,7 @@ export default function PricingBlock({ price, name }) {
         <p>Step 2: Hosts tell interested guests</p>
         <p>Step 3: Get new clients</p>
       </TextWrapper>
-      <Button style={{"marginTop": "auto", "marginBottom": "24px"}}>Match now</Button>
+      <ButtonA href="mailto:formans@umich.edu" style={{"marginTop": "auto", "marginBottom": "24px"}}>Match now</ButtonA>
     </Block>
   );
 }

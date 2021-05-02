@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { OnboardingTagline, Subtitle, Button, ButtonLogo } from "../styles";
+import { Subtitle, Button } from "../styles";
 import Navbar from "../components/Navbar";
 
 const SentImg = styled.img`

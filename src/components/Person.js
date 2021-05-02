@@ -1,7 +1,3 @@
-import styled from "styled-components";
-
-const TableData = styled.td``;
-
 export default function Person({ name, email, openRate }) {
   return (
     <tr>

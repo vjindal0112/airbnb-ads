@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { OnboardingTagline, Subtitle, Button, ButtonLogo } from "../styles";
+import { OnboardingTagline, Button } from "../styles";
 import Navbar from "../components/Navbar";
 import Person from "../components/Person";
 import { Secondary } from "../constants";

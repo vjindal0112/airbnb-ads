@@ -39,6 +39,29 @@ export const Button = styled(Link)`
   }
 `;
 
+export const ButtonA = styled.a`
+  text-decoration: none;
+  width: 220px;
+  padding: 16px 8px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  background: ${Power};
+  border-radius: 8px;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  display: block;
+  transition: all 0.5s;
+  &:hover {
+    background: ${PowerHover};
+  }
+  @media (max-width: 768px) {
+    margin-top: 5%;
+  }
+`;
+
 export const List = styled.li`
   font-size: 20px;
   text-align: left;
@@ -68,6 +91,7 @@ export const Tagline = styled.h1`
   text-align: center;
   color: #18191f;
   display: block;
+  line-height: 2;
 `;
 
 export const Subtitle = styled.h1`

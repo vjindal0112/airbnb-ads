@@ -5,11 +5,6 @@ import './index.css'
 import App from './App'
 import Home from './pages/Home'
 import reportWebVitals from './reportWebVitals'
-import Salesforce from './pages/Salesforce'
-import Mailchimp from './pages/Mailchimp'
-import Email from './pages/Email'
-import People from './pages/People'
-import Sent from './pages/Sent'
 import Pricing from './pages/Pricing'
 
 const routing = (
