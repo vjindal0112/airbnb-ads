@@ -28,7 +28,12 @@ export default function PricingBlock({ price, name }) {
         <p>Step 2: Hosts tell interested guests</p>
         <p>Step 3: Get new clients</p>
       </TextWrapper>
-      <ButtonA href="mailto:formans@umich.edu" style={{"marginTop": "auto", "marginBottom": "24px"}}>Match now</ButtonA>
+      <ButtonA
+        href="mailto:sjforman4@gmail.com"
+        style={{ marginTop: "auto", marginBottom: "24px" }}
+      >
+        Match now
+      </ButtonA>
     </Block>
   );
 }

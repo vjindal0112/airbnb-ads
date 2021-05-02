@@ -57,7 +57,7 @@ export default function HomePricingBlock({
         <p>Step 2: We find you a host</p>
         <p>Step 3: The host sends guests your way</p>
       </TextWrapper>
-      <Button href="mailto:formans@umich.edu" style={{ marginTop: "auto", marginBottom: "24px" }}>
+      <Button href="mailto:sjforman4@gmail.com" style={{ marginTop: "auto", marginBottom: "24px" }}>
         Match now
       </Button>
     </Block>

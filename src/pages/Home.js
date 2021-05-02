@@ -78,7 +78,7 @@ export default function Home() {
         <Navbar />
         <Tagline>Connecting Airbnb hosts to experiences</Tagline>
         <Subtitle>Increase your experience conversions</Subtitle>
-        <ButtonA href="mailto:formans@umich.edu">Contact</ButtonA>
+        <ButtonA href="mailto:sjforman4@gmail.com">Contact</ButtonA>
         <HomeImg src="/undraw_connection.svg"></HomeImg>
       </GradientWrapper>
       <Section padding="0 8%" backgroundColor="#fafafa">
