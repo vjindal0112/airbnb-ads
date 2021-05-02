@@ -12,9 +12,10 @@ const Block = styled.div`
   display: flex;
   flex-direction: column;
   border: 1px solid black;
+  padding: 8px;
   @media (max-width: 768px) {
-    min-width: 300px;
-    max-width: 301px;
+    min-width: 280px;
+    max-width: 281px;
   }
   @media (max-width: 280px) {
     min-width: 260px;
