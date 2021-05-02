@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Subtitle, Button } from "../styles";
+import { Subtitle, ButtonA } from "../styles";
 
 const Block = styled.div`
   border-radius: 8px;
@@ -57,9 +57,9 @@ export default function HomePricingBlock({
         <p>Step 2: We find you a host</p>
         <p>Step 3: The host sends guests your way</p>
       </TextWrapper>
-      <Button href="mailto:sjforman4@gmail.com" style={{ marginTop: "auto", marginBottom: "24px" }}>
+      <ButtonA href="mailto:sjforman4@gmail.com" style={{ marginTop: "auto", marginBottom: "24px" }}>
         Match now
-      </Button>
+      </ButtonA>
     </Block>
   );
 }
